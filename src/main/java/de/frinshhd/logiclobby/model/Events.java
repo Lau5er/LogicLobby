@@ -36,6 +36,13 @@ public class Events {
     @JsonProperty
     private String joinGamemode = null;
 
+    public boolean isNoLobbyWhenChangingWorld() {
+        return noLobbyWhenChangingWorld;
+    }
+
+    @JsonProperty
+    private boolean noLobbyWhenChangingWorld = false;
+
     public boolean isNoDamage() {
         return noDamage;
     }

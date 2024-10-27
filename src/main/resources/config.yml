@@ -123,6 +123,7 @@ events:
   noEntitySpawn: true
   lowestY: -70
   joinGamemode: ADVENTURE
+  noLobbyWhenChangingWorld: true
 database:
   type: "sqlite"
   host: "localhost"
